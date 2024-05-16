@@ -1,0 +1,73 @@
+:root{
+    margin:2rem;
+    margin-right: 5rem;
+}
+.Header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.Header-content img{
+    height: 15px;
+    width: 70px;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+}
+.Header-content--p{
+    width: 60%;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-size: 30px;
+}
+.Menu{
+    list-style: none;
+    display: flex;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.Menu-li{
+    margin-left: 3rem;
+}
+.Menu-li--all{
+    border-bottom: solid 1px black;
+}
+.Container{
+    padding: 1rem;
+    margin-right: 1.5rem;
+}
+.Container-content{
+    display: flex;
+}
+.Container-content img{
+    width: 25%;
+    margin: 8px;
+}
+.Texto{ 
+    text-align: center;
+    margin-left: 5rem;
+    margin-top: 2rem; 
+    margin-bottom: 3rem;
+}
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+    margin-left: 1.5rem; 
+    position: relative;
+}
+.Footer-p{
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+.Redes{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top:-10px;
+}
+.Redes-texto{
+    margin: 5px;
+    font-weight: bold;
+}
